@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    scroll-behavior: smooth;
+}
+#logo{
+    width: 260px;
+}
+a:hover{
+    text-decoration: underline;
+}
+.email{
+    float: right;
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    padding: 1%;
+    width: 100%;
+}
+html{
+    scroll-snap-type: y mandatory;
+}
+
+section{
+    height: 100vh;
+    width: 100vw;
+    scroll-snap-align: start;
+    scroll-behavior: smooth;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+#issue6{
+    background-color: white;
+}
+#issue5{
+    background-color:#00c1b5;
+}
+#issue4 {
+    background-color: #ff651a;
+}
+#issue3 {
+    background-color: #ffbe00;
+   
+}
+#issue2 {
+    background-color: #1d3fbb;
+}
+
+#issue1 {
+    background-color: #e30512;
+}
+section img {
+    width: 400px;
+}
+section p {
+    margin: 10px;
+}
+section p a{
+    color: #fff;
+    text-decoration: none;
+}
+/* #Privacy {
+    color: black;
+    margin: 10px;
+    padding-right: 1090px;
+    font-weight: bolder;
+    
+} */
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 300px;
+    margin: 20px;
+}
+.publisher{
+    margin-bottom: 30px;
+    margin-right: 100px;
+}
+#privacy{
+    margin-bottom: 1%;
+    margin-top: 5%;
+}
+ul{
+    list-style: none;
+    float: right;
+    gap: 10px;
+}
+li {
+    margin-top: 8px;
+}
+nav{
+    font-weight: 700;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+    position: fixed;
+    margin-bottom: 1%;
+ 
+}
+nav a {
+    font: 18px "Roboto" , sans-serif;
+    font-weight: lighter;
+    text-decoration: none;
+    
+}
+.text:hover {
+    text-decoration: none;
+}
+#privacy:hover {
+    text-decoration: none;
+}
+
